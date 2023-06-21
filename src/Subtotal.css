@@ -29,3 +29,7 @@
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
 }
+
+.subtotal > button:hover {
+  background: #d1a842;
+}

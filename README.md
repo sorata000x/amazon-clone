@@ -1,37 +1,40 @@
-Website: https://clone-f93da.web.app/
-Payment: https://stripe.com/
+<h1 align='center'>Amazon Clone Website</h1>
 
-# Dependencies
+<p>An Amazon website clone with the basic functionality for the users to purchase products.</p>
 
-React Router Dom
-`npm install react-router-dom`
+<hr>
 
-Material UI Icons
-`npm install @mui/icons-material`
+This project was built for me to practice ReactJS as well as learning the process of building a full-stack website from the beginning to the end. It resembles the older version of the Amazon website and many functionalities are not yet implemented as of right now.
 
-Stripe
-`npm install @stripe/stripe-js`
-`npm install @stripe/react-stripe-js`
+### [Link to the website](https://clone-f93da.web.app/)
 
-Axios
-`npm install axios`
+Note that none of the purchase on the website is real, you will not be charged for anything.
 
-(for backend dependencies see `./functions/README.md`)
+#### Home Page
+The home page displays several promoting products.
+<img src='./images/homepage_demo.png'/>
 
-# Feature
+#### Checkout Page
+After adding several items to the basket, they can be reviewed in the checkout page.
+<img src='./images/checkoutpage_demo.png'/>
 
-Payment Processing
-- Stripe
 
-# Deployment
+#### Login Page
+You will need to login or create an account to purchase the item.
+<img src='./images/loginpage_demo.png'/>
 
-`npm run build`
-- Fontend
-  `firebase deploy --only hosting`
-- Backend
-  `firebase deploy --only functions`
+#### Payment Page
+Comfirm your purchasing items, address, and decide your payment method.
+<img src='./images/paymentpage_demo.png'/>
 
-# Reference
+#### Orders Page
+At last purchased items can be viewed in the orders page.
+<img src='./images/orderspage_demo.png'/>
 
-https://medium.com/cleverprogrammer/amazon-clone-using-react-the-ultimate-guide-fba2b36f3458
-https://github.com/CleverProgrammers/react-challenge-amazon-clone/tree/master
+### What is Next
+
+- User profile page
+- Updatable home page products
+- Search page to browse more products
+- Amazon prime page
+- UI improvement to match the newest version of Amazon website

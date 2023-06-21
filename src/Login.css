@@ -56,6 +56,10 @@
   border-color: #a88734 #9c7e31 #846a29;
 }
 
+.login__signInButton:hover {
+  background: #d1a842;
+}
+
 .login__registerButton {
   border-radius: 2px;
   width: 100%;
